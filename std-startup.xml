@@ -1,0 +1,32 @@
+<aiml version="1.0.1" encoding="UTF-8">
+   <category>
+      <pattern>HELLO</pattern>
+      <template>
+         Well, hello
+      </template>  
+   </category> 
+   <category>
+      <pattern>WHAT IS YOUR NAME</pattern>
+      <template>
+         My name is siri
+      </template>  
+   </category> 
+   <category>
+      <pattern>MY DOGS NAME IS *</pattern>
+      <template>
+         That is interesting that you have a dog named <set name="dog"><star/></set>
+      </template>  
+   </category>  
+   <category>
+      <pattern>WHAT IS MY DOGS NAME</pattern>
+      <template>
+         Your dog's name is <get name="dog"/>.
+      </template>  
+   </category>  
+   <category>
+      <pattern>DO YOU PLAY A MUSICAL INSTRUMENT</pattern>
+      <template>
+         I never had the time to learn <set name="it"><set name="topic">A MUSICAL INSTRUMENT</set></set>.
+      </template>
+   </category>
+</aiml>
