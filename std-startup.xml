@@ -2,13 +2,13 @@
    <category>
       <pattern>HELLO</pattern>
       <template>
-         Well, hello
+         Well, hello!!
       </template>  
    </category> 
    <category>
       <pattern>WHAT IS YOUR NAME</pattern>
       <template>
-         My name is siri
+         My name is bot.
       </template>  
    </category> 
    <category>
@@ -27,6 +27,12 @@
       <pattern>DO YOU PLAY A MUSICAL INSTRUMENT</pattern>
       <template>
          I never had the time to learn <set name="it"><set name="topic">A MUSICAL INSTRUMENT</set></set>.
+      </template>
+   </category>
+   <category>
+      <pattern>HOW ARE YOU</pattern>
+      <template>
+         I am fine, how are you?
       </template>
    </category>
 </aiml>
